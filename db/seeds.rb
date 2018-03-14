@@ -14,7 +14,7 @@ Item.create(
   email: "kazuma@takahashi.org",
   image_url: "http://news.digitallab.biz/wordpress/wp-content/uploads/Nike-Air-Max-95-Neon.jpg")
 
-# createで登録
+ createで登録
 Item.create(
   name: "フットスケープ",
   description: "横にシューレースがある斬新なモデル。大切にしていただける方にお譲りします。",
@@ -24,7 +24,7 @@ Item.create(
   image_url: "https://smlycdn.akamaized.net/data/product2/2/e4e8cc92ab955a67a2d3aeb98eb5541475fd7ca3_l.jpg"
 )
 
-# new & saveで登録
+ new & saveで登録
 item3 = Item.new(
   name: "ポンプフューリー",
   description: "ポンプを押すと、空気によってパイプが膨らみ足型にフィットします。",
